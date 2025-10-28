@@ -17,22 +17,27 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+title: Widoki na Raj - Misja Barw i Kolorów
+email: kuta.dominik@gmail.com
+description: >- # Opis na podstawie tytułu i kontekstu migracji
+  Blog "Widoki na Raj - Misja Barw i Kolorów"
+# baseurl: "" # Pozostaw puste dla domeny głównej (widokinaraj.pl)
+# url: "https://www.widokinaraj.pl" # Pełny adres strony (używaj https)
 
-title: Your awesome title
-email: your-email@example.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+# Ustawienia Języka (ważne dla spolszczenia dat!)
+lang: pl
+
+# Ustawienia Social Media
+# Usunięto twitter_username, zgodnie z informacją.
+github_username: devhybrid360
 
 # Build settings
-theme: minima
+theme: atlas
 plugins:
   - jekyll-feed
+# 
+# ... (pozostałe sekcje, np. exclude, pozostają bez zmian)
+#
 
 # Exclude from processing.
 # The following items will not be processed, by default.

@@ -1,0 +1,27 @@
+pl:
+  date_formats:
+    default: "%d %B %Y"
+    short: "%d %b %Y"
+    long: "%d %B %Y"
+  month_names:
+    - ~
+    - Styczeń
+    - Luty
+    - Marzec
+    - Kwiecień
+    - Maj
+    - Czerwiec
+    - Lipiec
+    - Sierpień
+    - Wrzesień
+    - Październik
+    - Listopad
+    - Grudzień
+  day_names:
+    - Niedziela
+    - Poniedziałek
+    - Wtorek
+    - Środa
+    - Czwartek
+    - Piątek
+    - Sobota
